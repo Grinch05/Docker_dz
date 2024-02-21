@@ -5,7 +5,7 @@
             </div>
            
             <?php 
-             error_reporting(E_ALL & ~E_NOTICE);
+            error_reporting(E_ALL & ~E_NOTICE);
             ini_set('display_errors', 'Off');
             if ($_SESSION['dustup'] == false) { ?>
                 <h2><a href="?content=registration.php" class="link_header">Регистрация</a></h2>
