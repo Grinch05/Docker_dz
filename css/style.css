@@ -1,0 +1,449 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'poppins', sans-serif;
+    background-color: #77A1D3;
+}
+body{
+    justify-content: center;
+    display: flex;
+     margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    color: white;
+}
+.link:hover {
+    text-decoration: underline;
+    color: rgb(209, 205, 205);
+  }
+.link_header{
+    color: black;
+    
+}
+.link_header:hover{
+    color: rgb(70, 68, 68);
+}
+.link_sidebar{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.link_sidebar:hover{
+    text-decoration: underline;
+}
+.login_name{
+    font-size: 20px;
+}
+main{
+
+    height: auto
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+header{
+    height: 150px;
+    border: 2px solid black;
+    text-align: right;
+    
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'poppins', sans-serif;
+}
+
+.content{
+    
+  
+    border-top: 0px;
+    align-items: center;
+    width: 100ch;
+  
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+}
+
+.smena{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: auto;
+    height: 200px;
+    margin: 0 50px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'poppins', sans-serif;
+}
+
+.panel {
+    
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif; /* Пример использования шрифта Roboto */
+}
+
+.panel a {
+    text-decoration: none;
+    color: #007bff;
+    font-family: 'Roboto', sans-serif; /* Пример использования шрифта Roboto */
+    font-size: 20px;
+}
+
+.panel a:hover {
+    text-decoration: underline;
+}
+
+.table-container {
+    display: flex;
+    height: 100vh;
+    overflow-y: auto;
+}
+.smena {
+    margin-top: 20px;
+}
+
+.table2 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    height: 100ch;
+    width: 312px;
+    margin: 0 10px;
+    margin-top: 20px; 
+    text-align: center;
+    margin-left: auto;
+
+    background-color:rgba(255, 255, 255, 0.3);   
+    border-radius: 15px;
+    backdrop-filter: blur(5.5px);
+	-webkit-backdrop-filter: blur(5.5);
+	background: rgba(255, 255, 255, 0.30);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'poppins',sans-serif;
+}
+.table3 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    height: 100ch;
+   
+    margin: 0 10px;
+    margin-top: 20px; 
+    text-align: center;
+    margin-right: auto;
+
+    background-color:rgba(255, 255, 255, 0.3);   
+    border-radius: 15px;
+    backdrop-filter: blur(5.5px);
+	-webkit-backdrop-filter: blur(5.5);
+	background: rgba(255, 255, 255, 0.30);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'poppins',sans-serif;
+    
+}
+
+
+footer{
+    display: flex;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'poppins', sans-serif;
+   align-items: center;
+   padding: 0px 0px 0px 15px;
+    color: rgb(0, 0, 0);
+    border-top: 0px;
+    bottom: 0; /* Прикрепить футер к нижнему краю страницы */
+}
+.page{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5);
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+   min-height: 100vh;
+}
+.sidebar{
+    width: 250px;
+    margin-left: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+}
+.tablGL {
+    justify-content: center;
+}
+
+table {
+    background-color: #f2f2f2;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: 1em;
+    
+    
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3187dc;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  .tabl2 {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Это центрирует блок по горизонтали */
+    margin-top: 20%;
+    text-align: center;
+}
+
+input[type="text"]{
+    display: block;
+  color: inherit;
+  width: 250px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  font-weight: inherit;
+  line-height: var(--inputLineHeight);
+
+  border-radius: 0.4rem;
+  transition: box-shadow var(--transitionDuration);
+  margin: 0 auto; 
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="password"]{
+    display: block;
+  color: inherit;
+  width: 250px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: var(--inputFontSize);
+  font-weight: inherit;
+  line-height: var(--inputLineHeight);
+  border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+  transition: box-shadow var(--transitionDuration);
+  margin: 0 auto; 
+}
+input[type="submit"] {
+    margin: 0;
+    color: #ffffff; /* цвет текста */
+    background-color: #007bff; /* цвет фона */
+ 
+    font-family: inherit;
+    font-size: 16px; /* размер шрифта */
+    font-weight: bold;
+    line-height: 1.5;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px; /* внутренние отступы */
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+input[type="submit"] {
+    margin: 0;
+    color: #ffffff; /* цвет текста */
+    background-color: #007bff; /* цвет фона */
+ 
+    font-family: inherit;
+    font-size: 16px; /* размер шрифта */
+    font-weight: bold;
+    line-height: 1.5;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px; /* внутренние отступы */
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* изменение цвета при наведении */
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1); /* тень при наведении */
+}
+
+.input[type="file"] {
+    margin-right: 10px; /* Добавляем небольшой отступ между кнопками */
+    padding: 10px;
+    padding-left: 0px;
+    border-radius: 5px;
+  
+    cursor: pointer;
+
+    box-sizing: border-box;
+}
+
+.input[type="file"]:hover {
+    border-color: #007bff; /* цвет рамки при наведении */
+}
+
+.input[type="file"]:focus {
+    outline: none; /* убираем обводку при фокусе */
+}
+textarea{
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 100px;
+    margin: 30px;
+}
+
+.input[type="file"]::-webkit-file-upload-button {
+    background-color: #007bff; /* цвет кнопки */
+    color: white; /* цвет текста кнопки */
+    padding: 10px 20px; /* отступы */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #0056b3; /* изменение цвета кнопки при наведении */
+}
+
+/* Скрыть стандартную кнопку для некоторых браузеров */
+.input[type="file"]::-ms-browse {
+    display: none;
+}
+
+/* Скрыть стандартную кнопку для Firefox */
+.input[type="file"]::-moz-browse-button {
+    display: none;
+}
+
+/* Скрыть стандартную кнопку для Safari и Opera */
+.input[type="file"]::-webkit-browse-button {
+    display: none;
+}
+select[name="answer4"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px; /* Размер шрифта */
+}
+
+select[name="answer4"]:hover {
+    border-color: #007bff; /* Цвет рамки при наведении */
+}
+
+select[name="answer4"]:focus {
+    outline: none; /* Убираем обводку при фокусе */
+}
+
+option {
+    padding: 10px;
+    background-color: #f9f9f9; /* Цвет фона опций */
+}
+
+option:hover {
+    background-color: #007bff; /* Цвет фона опции при наведении */
+    color: white; /* Цвет текста опции при наведении */
+}
+.city-info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.city-info-container h1 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.city-info-container p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.city-info-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.city-info-container img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
