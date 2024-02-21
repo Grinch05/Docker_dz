@@ -4,7 +4,7 @@
          if(isset($_GET['content'])){
             $content= $_GET['content'];
             include "$content";
-        } 
+        }
          else {
             if(isset($_GET['region'])){
                 $selectedRegion = (int)$_GET['region'];
